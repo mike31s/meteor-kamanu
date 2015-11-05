@@ -14,14 +14,18 @@ Router.route('/', {
   name: 'Home'
 });
 
-Router.route('/list', {
-  name: 'ListStuff'
+Router.route('/pueo', {
+  name: 'pueo'
 });
-
-Router.route('/add', {
-  name: 'AddStuff'
+Router.route('/aukahi', {
+  name: 'aukahi'
 });
-
+Router.route('/v6', {
+  name: 'v6'
+});
+Router.route('/about', {
+  name: 'about'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
